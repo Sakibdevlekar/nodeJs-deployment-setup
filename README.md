@@ -58,7 +58,7 @@ sudo pm2 startup
   pm2 logs (Show log stream)
   pm2 flush (Clear logs)
   ```
-  - To make sure app starts when reboot pm2 startup ubuntu
+  ### - To make sure app starts when reboot pm2 startup ubuntu
   
 ## 6. Install NGINX and configure
   ```
@@ -83,17 +83,17 @@ sudo pm2 startup
   }
   ```
   
-  ### Check NGINX config
+  ### - Check NGINX config
   ```
      sudo nginx -t
   ```
   
-  ### Restart NGINX
+  ### - Restart NGINX
   ```
       sudo systemctl restart nginx
   ```
   
-  ### Check status  of NGINX
+  ### - Check status  of NGINX
   ```
       sudo systemctl status nginx
   ```
