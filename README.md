@@ -68,7 +68,8 @@
 ### Then click on **edit inbound rule**  and add some rules
 - Add rule and edit port number as per your need
   
-![WhatsApp Image 2023-10-09 at 1 18 04 PM](https://github.com/Sakibdevlekar/nodeJs_Deployment_setup/assets/111329075/fe6aefb8-f0d5-484d-8684-28a79aa23e03)
+
+![WhatsApp Image 2023-10-09 at 1 24 52 PM](https://github.com/Sakibdevlekar/nodeJs_Deployment_setup/assets/111329075/9e5919e1-d257-4612-be03-fddaf4330a52)
 
 
 ## 7. Install NGINX and configure
