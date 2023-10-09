@@ -100,4 +100,4 @@
 
 ## 7. Add SSL with LetsEncrypt
   - Go to this website [Certboat Instructions](https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal)
-### Just select the operating system  and your server setup in my case os - Ubuntu20  server - Nginx
+### Just select the operating system  and your server setup in my case os - Ubuntu20  server - Nginx.
