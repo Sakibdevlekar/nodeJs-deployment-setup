@@ -61,7 +61,11 @@
   ### - To make sure app starts when reboot pm2 startup ubuntu
 
 ## 6. Change security setting for accessing your website 
-- ![WhatsApp Image 2023-10-09 at 1 18 04 PM](https://github.com/Sakibdevlekar/nodeJs_Deployment_setup/assets/111329075/f8e0b642-3453-41a2-bb52-37b45017667c)
+ ![WhatsApp Image 2023-10-09 at 1 18 04 PM](https://github.com/Sakibdevlekar/nodeJs_Deployment_setup/assets/111329075/f8e0b642-3453-41a2-bb52-37b45017667c)
+
+###- Then click on **edit inbound rule**  and add some rules
+
+
 
 
 ## 7. Install NGINX and configure
