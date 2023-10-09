@@ -59,8 +59,12 @@
      pm2 flush (Clear logs)
   ```
   ### - To make sure app starts when reboot pm2 startup ubuntu
-  
-## 6. Install NGINX and configure
+
+## 6. Change security setting for accessing your website 
+- ![WhatsApp Image 2023-10-09 at 1 18 04 PM](https://github.com/Sakibdevlekar/nodeJs_Deployment_setup/assets/111329075/f8e0b642-3453-41a2-bb52-37b45017667c)
+
+
+## 7. Install NGINX and configure
   ```
      sudo apt install nginx
   ```
@@ -69,6 +73,7 @@
   ```
 - Add the following to the location part of the server block
   ```
+
   server {
     listen 80;
     server_name <here add your domain name>; 
@@ -98,6 +103,6 @@
      sudo systemctl status nginx
   ```
 
-## 7. Add SSL with LetsEncrypt
+## 8. Add SSL with LetsEncrypt
   - Go to this website [Certboat Instructions](https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal)
 ### Just select the operating system  and your server setup in my case Os - Ubuntu20,  Server - Nginx and follow there instructions
