@@ -25,9 +25,14 @@
 sudo curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 ```
 
-```sudo apt install nodejs```
+```
+ sudo apt install nodejs
+```
 
-``` node --version ```
+```
+node --version 
+```
+
 
 ## 4. Clone your project from Github
 
