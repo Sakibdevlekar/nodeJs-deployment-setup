@@ -12,7 +12,7 @@
 ## 2. Check system time and set proper time
 - To check time
   ```
-     zone timedatectl
+     sudo timedatectl
   ```
 
 - To change time zone
