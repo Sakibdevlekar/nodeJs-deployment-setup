@@ -1,14 +1,15 @@
 # nodeJs_Deployment_setup
 
 ## 1. Update system
-```sudo apt-get update
+```
+    sudo apt-get update
    sudo apt-get upgrade
 ```
 
 ## 2. Check system time and set proper time
 - To check time
   ```
-  zone timedatectl
+      zone timedatectl
    ```
 
 - To change time zone
