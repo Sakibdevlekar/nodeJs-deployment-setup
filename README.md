@@ -12,25 +12,25 @@
 ## 2. Check system time and set proper time
 - To check time
   ```
-      zone timedatectl
-   ```
+     zone timedatectl
+  ```
 
 - To change time zone
   ```
-  sudo timedatectl set-timezone Asia/Kolkata
-   ```
+      sudo timedatectl set-timezone Asia/Kolkata
+  ```
 
 ## 3. Install Node and NPM
-``` 
-sudo curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+```
+   sudo curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 ```
 
 ```
- sudo apt install nodejs
+   sudo apt install nodejs
 ```
 
 ```
-node --version 
+   node --version 
 ```
 
 
@@ -44,29 +44,29 @@ node --version
    sudo npm i pm2 -g
 ```
 ``` 
-sudo pm2 start index.js
+   sudo pm2 start index.js
  ```
 ``` 
-sudo pm2 startup
+   sudo pm2 startup
 ```
  - Other pm2 commands
   ```
-  pm2 show app
-  pm2 status
-  pm2 restart app
-  pm2 stop app
-  pm2 logs (Show log stream)
-  pm2 flush (Clear logs)
+     pm2 show app
+     pm2 status
+     pm2 restart app
+     pm2 stop app
+     pm2 logs (Show log stream)
+     pm2 flush (Clear logs)
   ```
   ### - To make sure app starts when reboot pm2 startup ubuntu
   
 ## 6. Install NGINX and configure
   ```
-  sudo apt install nginx
-```
-``` 
-  sudo nano /etc/nginx/conf.d/server.conf
- ```
+     sudo apt install nginx
+  ```
+  ``` 
+     sudo nano /etc/nginx/conf.d/server.conf
+  ```
 - Add the following to the location part of the server block
   ```
   server {
@@ -90,11 +90,11 @@ sudo pm2 startup
   
   ### - Restart NGINX
   ```
-      sudo systemctl restart nginx
+     sudo systemctl restart nginx
   ```
   
   ### - Check status  of NGINX
   ```
-      sudo systemctl status nginx
+     sudo systemctl status nginx
   ```
   
