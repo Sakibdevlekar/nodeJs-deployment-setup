@@ -63,9 +63,12 @@
 ## 6. Change security setting for accessing your website 
  ![WhatsApp Image 2023-10-09 at 1 18 04 PM](https://github.com/Sakibdevlekar/nodeJs_Deployment_setup/assets/111329075/f8e0b642-3453-41a2-bb52-37b45017667c)
 
-###- Then click on **edit inbound rule**  and add some rules
+ 
 
-
+### Then click on **edit inbound rule**  and add some rules
+- Add rule and edit port number as per your need
+  
+![WhatsApp Image 2023-10-09 at 1 18 04 PM](https://github.com/Sakibdevlekar/nodeJs_Deployment_setup/assets/111329075/fe6aefb8-f0d5-484d-8684-28a79aa23e03)
 
 
 ## 7. Install NGINX and configure
