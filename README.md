@@ -1,10 +1,13 @@
 # nodeJs_Deployment_setup
 
 ## 1. Update system
-```
-    sudo apt-get update
-   sudo apt-get upgrade
-```
+  ```
+     sudo apt-get update
+  ```
+
+  ```
+      sudo apt-get upgrade
+  ```
 
 ## 2. Check system time and set proper time
 - To check time
@@ -28,10 +31,12 @@ sudo curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 
 ## 4. Clone your project from Github
 
-``` sudo git clone <user repo link> ```
+``` 
+    sudo git clone <user repo link>
+```
 ## 5. Install pm2 (run app in backgound)
 ``` 
-sudo npm i pm2 -g
+   sudo npm i pm2 -g
 ```
 ``` 
 sudo pm2 start index.js
@@ -74,11 +79,17 @@ sudo pm2 startup
   ```
   
   ### Check NGINX config
-  ``` sudo nginx -t ```
+  ```
+     sudo nginx -t
+  ```
   
   ### Restart NGINX
-  ```sudo systemctl restart nginx```
+  ```
+      sudo systemctl restart nginx
+  ```
   
   ### Check status  of NGINX
-  ```sudo systemctl status nginx```
+  ```
+      sudo systemctl status nginx
+  ```
   
