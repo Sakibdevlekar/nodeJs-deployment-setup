@@ -22,7 +22,7 @@
 
 ## 3. Install Node and NPM
 ```
-   sudo curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+   sudo curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 ```
 
 ```
