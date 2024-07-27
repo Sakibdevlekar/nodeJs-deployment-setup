@@ -39,6 +39,19 @@ node --version
 ``` 
 sudo git clone <user repo link>
 ```
+
+## 5. Permit the user to copy the env file to server vai WinSCP
+``` 
+cd <your_repo_folderName>
+```
+1) see your folder path
+``` 
+pwd 
+```
+
+``` 
+sudo chmod 777 -R  <your repo folder path>
+```
 ## 5. Install pm2 (run app in background)
 
 ### Follow the instructions to install and configure pm2
