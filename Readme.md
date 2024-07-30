@@ -45,9 +45,9 @@ sudo git clone <user repo link>
 ![Untitled](https://github.com/user-attachments/assets/b73d0505-ada8-4a00-a182-2d4a569fb565)
 
 
-## 6. Install pm2 (run app in background)
-
+## 6. Install pm2 (run app in the background)
 ### Follow the instructions to install and configure pm2
+### For more info about pm2 refer this official documentation of PM2 https://pm2.keymetrics.io/docs/usage/quick-start/
 
 #### i. Installing Pm2 package globally
 ``` 
