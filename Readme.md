@@ -55,8 +55,9 @@ sudo npm i pm2 -g
 ```
 
 #### ii. Running server with Pm2 package
-``` 
-sudo pm2 start index.js
+```
+# Specify an app name
+sudo pm2 start index.js --name <app_name>
 ```
 ###  To make sure app starts when reboot pm2 startup ubuntu
 #### iii. To restart server with Pm2 package
@@ -75,11 +76,11 @@ pm2 status
 ```
 #### c. To restart pm2
 ```
-pm2 restart app
+pm2 restart <app_name>
 ```
 #### d. To stop pm2 
 ```
-pm2 stop app
+pm2 stop <app_name>
 ```
 #### e. Show log stream
 ```      
