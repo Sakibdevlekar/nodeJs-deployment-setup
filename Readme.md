@@ -40,19 +40,12 @@ node --version
 sudo git clone <user repo link>
 ```
 
-## 5. Permit the user to copy the env file to server vai WinSCP
-``` 
-cd <your_repo_folderName>
-```
-1) see your folder path
-``` 
-pwd 
-```
+## 5. Copy the env file to server vai WinSCP
+#### File will be transferred but not visible because it is hidden on server 
+![Untitled](https://github.com/user-attachments/assets/b73d0505-ada8-4a00-a182-2d4a569fb565)
 
-``` 
-sudo chmod 777 -R  <your repo folder path>
-```
-## 5. Install pm2 (run app in background)
+
+## 6. Install pm2 (run app in background)
 
 ### Follow the instructions to install and configure pm2
 
@@ -98,7 +91,7 @@ pm2 flush
 ```
 
 
-## 6. Change security setting for accessing your website 
+## 7. Change security setting for accessing your website 
  ![WhatsApp Image 2023-10-09 at 1 18 04 PM](https://github.com/Sakibdevlekar/nodeJs_Deployment_setup/assets/111329075/f8e0b642-3453-41a2-bb52-37b45017667c)
 
  
@@ -110,7 +103,7 @@ pm2 flush
 ![WhatsApp Image 2023-10-09 at 1 24 52 PM](https://github.com/Sakibdevlekar/nodeJs_Deployment_setup/assets/111329075/9e5919e1-d257-4612-be03-fddaf4330a52)
 
 
-## 7. Install NGINX and configure
+## 8. Install NGINX and configure
   ```
 sudo apt install nginx
   ```
@@ -148,13 +141,13 @@ sudo systemctl restart nginx
 sudo systemctl status nginx
 ```
 
-## 8. Add SSL with LetsEncrypt
+## 9. Add SSL with LetsEncrypt
   - ### Go to this website **[Certboat Instructions](https://certbot.eff.org/instructions?ws=nginx&os=ubuntufocal)**
 ### Just select the operating system  and your server setup in my case Os - Ubuntu20,  Server - Nginx and follow there instructions
 
 
 
-## 9. Your nodeJs application deployed successfully 🚀
+## 10. Your nodeJs application deployed successfully 🚀
 
 
 
